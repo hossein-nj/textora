@@ -8,6 +8,7 @@
 [![React](https://img.shields.io/badge/React-%3E%3D18.2.0-61dafb?style=flat-square&logo=react&logoColor=20232a)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-first-3178c6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![npm downloads](https://img.shields.io/npm/dm/textora-editor?style=flat-square&color=green)](https://www.npmjs.com/package/textora-editor)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/textora-editor?style=flat-square&label=bundle%20size)](https://bundlephobia.com/package/textora-editor)
 
 <br />
 
@@ -125,23 +126,7 @@ Supported locales:
 ~~~
 
 The `locale` and `direction` props work independently. Changing the interface language does not automatically change the editor's text direction.
-
-## RTL and LTR support
-
-Textora supports both left-to-right and right-to-left interfaces through the `direction` prop.
-
-~~~tsx
-<Textora
-    value={value}
-    onChange={setValue}
-    locale="Persian"
-    direction="rtl"
-/>
-~~~
-
 Use `rtl` for Persian, Arabic, Urdu, and other right-to-left languages, or `ltr` for left-to-right content.
-
-The toolbar also provides controls for changing the direction of selected content blocks.
 
 ## Image insertion and customization
 

@@ -183,7 +183,7 @@ Pasted and inserted HTML is also sanitized before being added to the editor.
 
 ## Custom labels
 
-The `labels` prop allows you to override individual interface texts without creating a complete locale.
+The `labels` prop allows you to override individual interface texts without creating a complete locale. You can provide custom labels in any language, regardless of the selected locale. For example, if locale="German", you can write your custom labels in German.
 
 ~~~tsx
 <Textora

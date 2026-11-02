@@ -46,13 +46,13 @@
     "free",
     "typescript"
   ],
-  "homepage": "https://github.com/hossein-nj/textora-editor#readme",
+  "homepage": "https://github.com/hossein-nj/textora#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hossein-nj/textora-editor.git"
+    "url": "https://github.com/hossein-nj/textora.git"
   },
   "bugs": {
-    "url": "https://github.com/hossein-nj/textora-editor/issues"
+    "url": "https://github.com/hossein-nj/textora/issues"
   },
   "peerDependencies": {
     "react": ">=18.2.0",

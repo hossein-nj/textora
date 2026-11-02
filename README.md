@@ -78,23 +78,23 @@ Textora includes nine built-in themes. All themes use the same component API and
 
 <table>
   <tr>
-    <td align="center"><strong>Light</strong><br /><img src="YOUR-LIGHT-IMAGE-PATH" alt="Textora light theme" width="500" /></td>
-    <td align="center"><strong>Dark</strong><br /><img src="YOUR-DARK-IMAGE-PATH" alt="Textora dark theme" width="500" /></td>
+    <td align="center"><strong>Light</strong><br /><img src="images\Light.png" alt="Textora light theme" width="500" /></td>
+    <td align="center"><strong>Dark</strong><br /><img src="images\Dark.png" alt="Textora dark theme" width="500" /></td>
   </tr>
   <tr>
-    <td align="center"><strong>Cupcake</strong><br /><img src="YOUR-CUPCAKE-IMAGE-PATH" alt="Textora cupcake theme" width="500" /></td>
-    <td align="center"><strong>Emerald</strong><br /><img src="YOUR-EMERALD-IMAGE-PATH" alt="Textora emerald theme" width="500" /></td>
+    <td align="center"><strong>Cupcake</strong><br /><img src="images\Cupcake.png" alt="Textora cupcake theme" width="500" /></td>
+    <td align="center"><strong>Emerald</strong><br /><img src="images\Emerald.png" alt="Textora emerald theme" width="500" /></td>
   </tr>
   <tr>
-    <td align="center"><strong>Corporate</strong><br /><img src="YOUR-CORPORATE-IMAGE-PATH" alt="Textora corporate theme" width="500" /></td>
-    <td align="center"><strong>Retro</strong><br /><img src="YOUR-RETRO-IMAGE-PATH" alt="Textora retro theme" width="500" /></td>
+    <td align="center"><strong>Corporate</strong><br /><img src="images\Corporate.png" alt="Textora corporate theme" width="500" /></td>
+    <td align="center"><strong>Retro</strong><br /><img src="images\Retro.png" alt="Textora retro theme" width="500" /></td>
   </tr>
   <tr>
-    <td align="center"><strong>Dracula</strong><br /><img src="YOUR-DRACULA-IMAGE-PATH" alt="Textora dracula theme" width="500" /></td>
-    <td align="center"><strong>Synthwave</strong><br /><img src="YOUR-SYNTHWAVE-IMAGE-PATH" alt="Textora synthwave theme" width="500" /></td>
+    <td align="center"><strong>Dracula</strong><br /><img src="images\Dracula.png" alt="Textora dracula theme" width="500" /></td>
+    <td align="center"><strong>Synthwave</strong><br /><img src="images\Synthwave.png" alt="Textora synthwave theme" width="500" /></td>
   </tr>
   <tr>
-    <td align="center"><strong>Nord</strong><br /><img src="YOUR-NORD-IMAGE-PATH" alt="Textora nord theme" width="500" /></td>
+    <td align="center"><strong>Nord</strong><br /><img src="images\Nord.png" alt="Textora nord theme" width="500" /></td>
     <td align="center"><em>All themes share the same editor functionality.</em></td>
   </tr>
 </table>

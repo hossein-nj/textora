@@ -1,4 +1,3 @@
-
 {
   "name": "textora-editor",
   "version": "1.0.0",
@@ -47,6 +46,14 @@
     "free",
     "typescript"
   ],
+  "homepage": "https://github.com/hossein-nj/textora-editor#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hossein-nj/textora-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hossein-nj/textora-editor/issues"
+  },
   "peerDependencies": {
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0"

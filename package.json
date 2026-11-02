@@ -1,0 +1,67 @@
+
+{
+  "name": "textora-editor",
+  "version": "1.0.0",
+  "description": "Everything You Need. Completely Free. A lightweight, feature-rich React rich text editor with essential editing tools and TypeScript support.",
+  "type": "module",
+  "main": "./dist/textora-editor.cjs",
+  "module": "./dist/textora-editor.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/textora-editor.js",
+      "require": "./dist/textora-editor.cjs"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "vite build && tsc -p tsconfig.build.json --emitDeclarationOnly",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "textora",
+    "textora-editor",
+    "react",
+    "react-editor",
+    "react-rich-text-editor",
+    "rich-text-editor",
+    "richtext",
+    "text-editor",
+    "wysiwyg",
+    "html-editor",
+    "lightweight",
+    "simple",
+    "free",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-dom": ">=18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
